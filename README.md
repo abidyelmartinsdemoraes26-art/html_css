@@ -11,3 +11,7 @@
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex009/">EX009</a> <br>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex010/">EX010</a> <br>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex011/">EX011</a> <br>
+<a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex012/">EX012</a> <br>
+<a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex013/">EX013<a> <br>
+<a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex014/">EX014<a> <br>
+<a hreft="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex015/">EX015<a> <br>
