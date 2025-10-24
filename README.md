@@ -5,6 +5,7 @@
         border:1px solid black;
         border-radius:5px;
         display: inline-block;
+        background-color: lightblue;
     }
 </style>
  
