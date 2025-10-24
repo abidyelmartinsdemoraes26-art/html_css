@@ -1,15 +1,19 @@
 # html_css
 <style>
-    div{
+    div.d{
         margin: 5px;
         border:1px solid black;
         border-radius:5px;
         display: inline-block;
         background-color: lightblue;
     }
+    body{
+        display: block;
+        background-color: white;
+    }
 </style>
  
-<div>
+<div class="d">
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex001/">EX001</a> <br>
 </div>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex002/">EX002</a> <br>
