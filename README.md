@@ -1,11 +1,13 @@
 # html_css
 <style>
-    div.d{
+    div.container{
         margin: 5px;
         border:1px solid black;
         border-radius:5px;
         display: inline-block;
         background-color: lightblue;
+        padding: 15px;
+
     }
     body{
         display: block;
@@ -13,10 +15,12 @@
     }
 </style>
  
-<div class="d">
+<div class="container">
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex001/">EX001</a> <br>
 </div>
+<div classh="container">
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex002/">EX002</a> <br>
+</div>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex003/">EX003</a> <br>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex004/">EX004</a> <br>
 <a href="https://abidyelmartinsdemoraes26-art.github.io/html_css/exercicios/modulo-01/ex005/">EX005</a> <br>
