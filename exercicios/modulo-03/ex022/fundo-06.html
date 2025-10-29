@@ -6,14 +6,24 @@
     <title>Document</title>
     <style>
         body {
+           /* height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed; */
+
+            /* Shorthand -background
+                    color > image > position > repeat > (size = não funciona) > attachment
+            */
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed; 
+            background-size: cover;
+
 
         }
         main {
-            width: 400px;
+            max-width: 400px;
             border:1px solid darkblue;
             border-radius: 15px;
             padding: 10px;
@@ -27,7 +37,7 @@
 <body>
     <main>
         <h1>meu site</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ducimus, quod voluptatum error saepe autem iusto maxime! Quisquam asperiores adipisci dolores quas, vitae porro nulla. Repudiandae perspiciatis in voluptate facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos odio distinctio saepe at rerum culpa repellat, laborum sunt ad reprehenderit dolore. Corporis fugiat nobis aliquid expedita laudantium voluptate sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet dicta similique veritatis voluptas laborum cum aspernatur nesciunt consectetur corrupti dolorem reiciendis, ipsum sint, quaerat molestiae numquam explicabo. Magnam, numquam!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ducimus, quod voluptatum error saepe autem iusto maxime! Quisquam asperiores adipisci dolores quas, vitae porro nulla. Repudiandae perspiciatis in voluptate facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo eos odio distinctio saepe at rerum culpa repellat, laborum sunt ad reprehenderit dolore. Corporis fugiat nobis aliquid expedita laudantium voluptate sed? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem amet dicta similique veritatis voluptas laborum cum aspernatur nesciunt consectetur corrupti dolorem reiciendis, ipsum sint, quaerat molestiae numquam explicabo. Magnam, numquam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti, reiciendis reprehenderit. Obcaecati, et. Laboriosam officia deleniti in aspernatur nobis recusandae praesentium consectetur quod? Voluptates molestias dolorum natus sapiente earum. Sequi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quia commodi. Iure doloremque corporis at fuga dolorem, placeat perferendis nam aperiam porro quasi eius magni libero repellat officia laboriosam molestias.</p>
     </main>
 </body>
 </html>
