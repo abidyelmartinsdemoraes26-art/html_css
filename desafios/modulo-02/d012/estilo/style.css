@@ -77,6 +77,10 @@ section.normal {
     color: black;
 }
 
+section p {
+    padding-bottom: 1em;
+}
+
 section.imagem {
     background-color: rgb(108, 108, 108);
     color: white;
