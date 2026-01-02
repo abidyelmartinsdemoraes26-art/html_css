@@ -65,25 +65,44 @@ section {
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.218);
+    background-color: rgba(0, 0, 0, 0.475);
     max-width: 400px;
     padding-left: 20px;
     text-align: justify;
     display: inline-block;
+    text-shadow: 2px 2px 0px black;
+    
+    
 }
 
 section.normal {
     background-color: white;
-    color: black;
+    color: rgb(0, 0, 0);
+    
 }
 
 section p {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 section.imagem {
     background-color: rgb(108, 108, 108);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.416);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+}
+
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
 }
 
 header a:hover, footer a:hover {
@@ -96,8 +115,3 @@ footer {
     padding: 5px 0px;
     color: white;
 }
-
-.imagen_joaninha {
-
-    background-image: url(/desafios/modulo-02/d012/imagens/background001.jpg);
-} 
