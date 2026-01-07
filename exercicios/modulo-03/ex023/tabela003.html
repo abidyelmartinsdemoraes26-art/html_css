@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            width: 200px;
+        }
+
+        td, th, caption{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        caption {
+            background-color: rgba(119, 136, 153, 0.569);
+        }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de células</h1>
+    <table>
+        <thead>
+            <caption>alfabeto</caption>
+        </thead>
+        <tr>
+            <td>A</td>
+            <td colspan="2">B</td>
+            
+        </tr>
+        <tr>
+            <td rowspan="3">D</td>
+            <td>E</td>
+            <td rowspan="2">F</td>
+        </tr>
+        <tr>
+            
+            <td>H</td>
+            
+        </tr>
+        <tr>
+            
+            
+            <td colspan="2">L</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
