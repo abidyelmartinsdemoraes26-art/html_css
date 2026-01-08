@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+        }
+        table {
+            width: 600px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin: 100px auto;
+        }
+
+        td.numero {
+            text-align: center;
+            width: 22px;
+            background-color: rgba(211, 211, 211, 0.513);
+        }
+
+        th#espaço {
+            background-color: lightgray;
+            width: 22px;
+        }
+        th.sexo {
+            background-color: antiquewhite;
+            width: 90px;
+        }
+
+        td, th {
+            border: 1px solid black;
+        }
+        th.titulo {
+            background-color: rgba(211, 211, 211, 0.513);
+        }
+
+        th.ABCDE {
+            background-color: rgba(250, 235, 215, 0.548);
+        }
+
+        caption#titulotop {
+            border: 1px solid black;
+            padding: 1px;
+            font-size: 1.2em;
+            font-weight: bolder;
+            
+        }
+
+
+
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <table>
+            <caption id="titulotop">Lista de filmes por pessoa</caption>
+            <thead>
+                <tr>
+                    <th id="espaço" class="cabeça"></th>
+                    <th class="ABCDE">A</th>
+                    <th class="ABCDE">B</th>
+                    <th class="ABCDE">C</th>
+                    <th class="ABCDE">D</th>
+                    <th class="ABCDE">E</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="numero">1</td>
+                    <th class="titulo">Grupo</th>
+                    <th class="titulo">Nomes</th>
+                    <th class="titulo" colspan="3" >Filmes</th>
+                </tr>
+                <tr>
+                    <td class="numero">2</td>
+                    <th rowspan="3" class="sexo">Mulheres</th>
+                    <td> Ana Maria Santos</td>
+                    <td>Alien</td>
+                    <td>Rambo</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <td class="numero">3</td>
+                    <td>Beatriz Souza</td>
+                    <td>Hulk</td>
+                    <td>Inception</td>
+                    <td>Batman</td>
+                </tr>
+                <tr>
+                    <td class="numero">4</td>
+                    <td>Cláudia Melo</td>
+                    <td>Oblivion</td>
+                    <td>Matrix</td>
+                    <td>Big Hero</td>
+                </tr>
+                <tr>
+                    <td class="numero">5</td>
+                    <th rowspan="3" class="sexo">Homes</th>
+                    <td>Bruno Mendonça</td>
+                    <td>Intocáveis</td>
+                    <td>Amnésia</td>
+                    <td>Gladiador</td>
+                </tr>
+                <tr>
+                    <td class="numero">6</td>
+                    <td>Daniel Lourenço</td>
+                    <td>Wall-E</td>
+                    <td>Oldboy</td>
+                    <td>Dangal</td>
+                </tr>
+                <tr>
+                    <td class="numero">7</td>
+                    <td>Fabiano Mota</td>
+                    <td>Star Wars 5</td>
+                    <td>Taxi Driver</td>
+                    <td>Toy Story</td>
+                </tr>
+            </tbody>
+        </table>
+    </table>
+</body>
+</html>
